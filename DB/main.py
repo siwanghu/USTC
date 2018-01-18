@@ -3,7 +3,7 @@
 import os
 import handleDB
 
-clean="clear"     #如果是在windows上运行，请改为cls
+clean="clear"     #如果是在windows上运行，请改为clean="cls"
 flag=True
 
 menu_ui='''-------------欢迎使用旅游预订系统----------------------------       
