@@ -114,6 +114,7 @@ def reserveCars(custName,type_s):
         db.close()
         db.rollback()
 
+
 #预定宾馆
 def reserveHotels(custName,name):
     db=MySQLdb.connect(user=config.user,db=config.db,passwd=config.passwd,host=config.host,charset=config.charset)
