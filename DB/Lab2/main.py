@@ -9,12 +9,26 @@ def test():
     mini=50  
     maxi=200  
     testlist=[]  
-    for i in range(20):  
-        key=randint(1,1000)  
-        #key=i  
-        value=choice(['Do', 'Re', 'Mi', 'Fa', 'So', 'La', 'Si'])  
-        testlist.append(ValueToKey.Hash(key,value))  
-  
+
+    key=randint(1,1000)
+    testlist.append(ValueToKey.Hash(key,"Do"))
+    key=randint(1,1000)
+    testlist.append(ValueToKey.Hash(key,"Re"))
+    key=randint(1,1000)
+    testlist.append(ValueToKey.Hash(key,"Mi"))
+    key=randint(1,1000)
+    testlist.append(ValueToKey.Hash(key,"Fa"))
+    key=randint(1,1000)
+    testlist.append(ValueToKey.Hash(key,"So"))
+    key=randint(1,1000)
+    testlist.append(ValueToKey.Hash(key,"La"))
+    key=randint(1,1000)
+    testlist.append(ValueToKey.Hash(key,"Si"))
+
+    #打印hash表
+    for i in testlist:
+        print i
+
     #初始化B树  
     myBPlusTree=BPlusTree.BPlusTree(4, 4)  
   
