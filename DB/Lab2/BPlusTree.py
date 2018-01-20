@@ -121,7 +121,7 @@ class BPlusTree(object):
                     return  
         insert_node(node)  
   
-     
+    
     def search(self,mi=None,ma=None):  
         result=[]  
         node=self.__root  

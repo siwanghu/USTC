@@ -2,7 +2,7 @@
 #-*- coding:UTF-8 -*-
 
 #自定义异常
-class InitException(Exception):  
+class InitException(Exception):
     pass
-class ParseException(Exception):  
+class ParseException(Exception):
     pass
