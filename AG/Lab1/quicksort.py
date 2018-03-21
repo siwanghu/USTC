@@ -18,9 +18,11 @@ def partition(array, left, right):
             left=left+1
     return left
 
-print(quickSort(None,0,0))
-print(quickSort([],0,0))
-print(quickSort([5],0,0))
-print(quickSort([5,4,3,2,1],0,4))
-print(quickSort([1,3,5,2,11,353,12,33],0,7))
-print(quickSort([1,3,5,2,11,353,12,33,45],0,8))
+array=[]
+for _ in range(1000):
+    array.append(random.randint(0,1000))
+print(array)
+begin=time.clock()
+quickSort(array,0,len(array)-1)
+end=time.clock()
+print("time:%f",end-begin)
