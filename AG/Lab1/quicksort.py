@@ -1,4 +1,9 @@
 #-*- coding:UTF-8 -*-
+import random  
+import time
+import sys  
+sys.setrecursionlimit(100000)
+
 def quickSort(array, left, right):  
     if(array==None or len(array)==0):
         return
@@ -19,7 +24,7 @@ def partition(array, left, right):
     return left
 
 array=[]
-for _ in range(1000):
+for _ in range(10):
     array.append(random.randint(0,1000))
 print(array)
 begin=time.clock()
