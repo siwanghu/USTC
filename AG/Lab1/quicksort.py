@@ -2,7 +2,6 @@
 import random  
 import time
 import sys  
-sys.setrecursionlimit(100000)
 
 def quickSort(array, left, right):  
     if(array==None or len(array)==0):
