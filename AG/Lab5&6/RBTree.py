@@ -1,11 +1,4 @@
 #-*- coding:UTF-8 -*-
-import random  
-
-arrays=[]
-for _ in range(10):
-    arrays.append(random.randint(0,100))
-print(arrays[:])
-
 class RBNode:
     def __init__(self,x):
         self.key=x
@@ -16,20 +9,15 @@ class RBNode:
         self.size=None
 
 class RBTree:
-    def __init__(self,x):
-        self.nil=RBNode(x)
+    def __init__(self):
+        self.nil=RBNode(0)
         self.root=self.nil
-        self.data=x
-        self.root_flag=True
 
     def printTree(self,node):
         if node==None:
             return
         self.printTree(node.left)
-        if node==self.root and self.root_flag==True:
-            print(node.key,node.color)
-            self.root_flag=False
-        elif node.key!=self.data:
+        if node.key!=0:
             print(node.key,node.color)
         self.printTree(node.right)
 
@@ -131,7 +119,16 @@ def RBTransplant( T, u, v):
         u.parent.right = v
     v.parent = u.parent
 
-def RBDelete(T, z):
+def search(node,key):
+    if node==None or key==node.key:
+        return node
+    if key < node.key:
+        return search(node.left,key)
+    else:
+        return search(node.right,key)
+
+def RBDelete(T, key):
+    z=search(T.root,key)
     y = z
     y_original_color = y.color
     if z.left == T.nil:
@@ -203,12 +200,14 @@ def RBDeleteFixup(T, x):
                 x = T.root
     x.color = 'black'
 
-T = RBTree(arrays[0])
-for i in range(1,10):
-    print('插入数据',RBInsert(T,RBNode(arrays[i])))
-print('中序遍历')
+arrays=[12,9,1,4,3,78,20,90,23,10]
+print(arrays)
+T = RBTree()
+for i in range(0,10):
+    print('insert',RBInsert(T,RBNode(arrays[i])))
+print('中序遍历',"根结点:",(T.root.key,T.root.color))
 T.printTree(T.root)
-
-print("删除")
-RBDelete(T,T.root.left)
+print("删除关键字为4的结点")
+RBDelete(T,4)
+print('中序遍历',"根结点:",(T.root.key,T.root.color))
 T.printTree(T.root)

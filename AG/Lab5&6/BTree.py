@@ -1,6 +1,4 @@
 #-*- coding:UTF-8 -*-
-import random  
-
 class Node:
     def __init__(self,key,left,right,parent):
         self.key=key
@@ -83,9 +81,7 @@ class Tree:
         print(node.key)
         self.printTree(node.right)
 
-array=[]
-for _ in range(10):
-    array.append(random.randint(0,100))
+array=[12,9,0,4,3,78,20,90,23,10]
 print(array)
 node=Node(array[0],None,None,None)
 tree=Tree(node)
@@ -98,9 +94,9 @@ print("...............最大值..................")
 print(tree.max(tree.root).key)
 print("...............最小值..................")
 print(tree.min(tree.root).key)
-print("...............查找..................")
-print(tree.search(tree.root,array[2]).key)
+#print("...............查找..................")
+#print(tree.search(tree.root,array[2]).key)
 print("...............删除..................")
-tree.delete(array[2])
-print("删除后结果：")
+tree.delete(0)
+print("删除关键字为0的结点：")
 tree.printTree(tree.root)
