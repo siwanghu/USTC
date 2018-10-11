@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="loginForm_background_pictureBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="loginForm_background_pictureBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="loginForm_background_pictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="loginForm_background_pictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>548, 402</value>
+  </data>
+  <data name="loginForm_background_pictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="loginForm_background_pictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;loginForm_background_pictureBox.Name" xml:space="preserve">
+    <value>loginForm_background_pictureBox</value>
+  </data>
+  <data name="&gt;&gt;loginForm_background_pictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginForm_background_pictureBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;loginForm_background_pictureBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="loginForm_login_panel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="loginForm_button_login.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="loginForm_button_login.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="loginForm_button_login.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="loginForm_button_login.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 15.75pt, style=Bold</value>
+  </data>
+  <data name="loginForm_button_login.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 299</value>
+  </data>
+  <data name="loginForm_button_login.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 50</value>
+  </data>
+  <data name="loginForm_button_login.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="loginForm_button_login.Text" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_login.Name" xml:space="preserve">
+    <value>loginForm_button_login</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_login.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_login.Parent" xml:space="preserve">
+    <value>loginForm_login_panel</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_login.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="loginForm_button_cancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="loginForm_button_cancel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="loginForm_button_cancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="loginForm_button_cancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 15.75pt, style=Bold</value>
+  </data>
+  <data name="loginForm_button_cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 299</value>
+  </data>
+  <data name="loginForm_button_cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 50</value>
+  </data>
+  <data name="loginForm_button_cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="loginForm_button_cancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_cancel.Name" xml:space="preserve">
+    <value>loginForm_button_cancel</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_cancel.Parent" xml:space="preserve">
+    <value>loginForm_login_panel</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_cancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="loginForm_button_exit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="loginForm_button_exit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="loginForm_button_exit.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="loginForm_button_exit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 15.75pt, style=Bold</value>
+  </data>
+  <data name="loginForm_button_exit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 299</value>
+  </data>
+  <data name="loginForm_button_exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 50</value>
+  </data>
+  <data name="loginForm_button_exit.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="loginForm_button_exit.Text" xml:space="preserve">
+    <value>退出系统</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_exit.Name" xml:space="preserve">
+    <value>loginForm_button_exit</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_exit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_exit.Parent" xml:space="preserve">
+    <value>loginForm_login_panel</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_exit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="loginForm_button_zero.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="loginForm_button_zero.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="loginForm_button_zero.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="loginForm_button_zero.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 26.25pt, style=Bold</value>
+  </data>
+  <data name="loginForm_button_zero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 211</value>
+  </data>
+  <data name="loginForm_button_zero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 56</value>
+  </data>
+  <data name="loginForm_button_zero.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="loginForm_button_zero.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_zero.Name" xml:space="preserve">
+    <value>loginForm_button_zero</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_zero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_zero.Parent" xml:space="preserve">
+    <value>loginForm_login_panel</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_zero.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="loginForm_button_nine.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="loginForm_button_nine.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="loginForm_button_nine.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="loginForm_button_nine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 26.25pt, style=Bold</value>
+  </data>
+  <data name="loginForm_button_nine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 145</value>
+  </data>
+  <data name="loginForm_button_nine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 60</value>
+  </data>
+  <data name="loginForm_button_nine.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="loginForm_button_nine.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_nine.Name" xml:space="preserve">
+    <value>loginForm_button_nine</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_nine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_nine.Parent" xml:space="preserve">
+    <value>loginForm_login_panel</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_nine.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="loginForm_button_eight.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="loginForm_button_eight.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="loginForm_button_eight.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="loginForm_button_eight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 26.25pt, style=Bold</value>
+  </data>
+  <data name="loginForm_button_eight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 145</value>
+  </data>
+  <data name="loginForm_button_eight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 60</value>
+  </data>
+  <data name="loginForm_button_eight.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="loginForm_button_eight.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_eight.Name" xml:space="preserve">
+    <value>loginForm_button_eight</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_eight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_eight.Parent" xml:space="preserve">
+    <value>loginForm_login_panel</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_eight.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="loginForm_button_seven.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="loginForm_button_seven.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="loginForm_button_seven.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="loginForm_button_seven.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 26.25pt, style=Bold</value>
+  </data>
+  <data name="loginForm_button_seven.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 145</value>
+  </data>
+  <data name="loginForm_button_seven.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 60</value>
+  </data>
+  <data name="loginForm_button_seven.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="loginForm_button_seven.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_seven.Name" xml:space="preserve">
+    <value>loginForm_button_seven</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_seven.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_seven.Parent" xml:space="preserve">
+    <value>loginForm_login_panel</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_seven.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="loginForm_button_six.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="loginForm_button_six.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="loginForm_button_six.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="loginForm_button_six.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 26.25pt, style=Bold</value>
+  </data>
+  <data name="loginForm_button_six.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 80</value>
+  </data>
+  <data name="loginForm_button_six.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 59</value>
+  </data>
+  <data name="loginForm_button_six.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="loginForm_button_six.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_six.Name" xml:space="preserve">
+    <value>loginForm_button_six</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_six.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_six.Parent" xml:space="preserve">
+    <value>loginForm_login_panel</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_six.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="loginForm_button_five.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="loginForm_button_five.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="loginForm_button_five.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="loginForm_button_five.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 26.25pt, style=Bold</value>
+  </data>
+  <data name="loginForm_button_five.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 80</value>
+  </data>
+  <data name="loginForm_button_five.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 59</value>
+  </data>
+  <data name="loginForm_button_five.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="loginForm_button_five.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_five.Name" xml:space="preserve">
+    <value>loginForm_button_five</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_five.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_five.Parent" xml:space="preserve">
+    <value>loginForm_login_panel</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_five.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="loginForm_button_four.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="loginForm_button_four.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="loginForm_button_four.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="loginForm_button_four.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 26.25pt, style=Bold</value>
+  </data>
+  <data name="loginForm_button_four.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 80</value>
+  </data>
+  <data name="loginForm_button_four.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 59</value>
+  </data>
+  <data name="loginForm_button_four.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="loginForm_button_four.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_four.Name" xml:space="preserve">
+    <value>loginForm_button_four</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_four.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_four.Parent" xml:space="preserve">
+    <value>loginForm_login_panel</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_four.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="loginForm_button_three.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="loginForm_button_three.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="loginForm_button_three.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="loginForm_button_three.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 26.25pt, style=Bold</value>
+  </data>
+  <data name="loginForm_button_three.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 14</value>
+  </data>
+  <data name="loginForm_button_three.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 60</value>
+  </data>
+  <data name="loginForm_button_three.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="loginForm_button_three.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_three.Name" xml:space="preserve">
+    <value>loginForm_button_three</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_three.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_three.Parent" xml:space="preserve">
+    <value>loginForm_login_panel</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_three.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="loginForm_button_two.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="loginForm_button_two.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="loginForm_button_two.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="loginForm_button_two.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 26.25pt, style=Bold</value>
+  </data>
+  <data name="loginForm_button_two.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 14</value>
+  </data>
+  <data name="loginForm_button_two.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 60</value>
+  </data>
+  <data name="loginForm_button_two.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="loginForm_button_two.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_two.Name" xml:space="preserve">
+    <value>loginForm_button_two</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_two.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_two.Parent" xml:space="preserve">
+    <value>loginForm_login_panel</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_two.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="loginForm_button_one.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="loginForm_button_one.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="loginForm_button_one.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="loginForm_button_one.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 26.25pt, style=Bold</value>
+  </data>
+  <data name="loginForm_button_one.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 14</value>
+  </data>
+  <data name="loginForm_button_one.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 60</value>
+  </data>
+  <data name="loginForm_button_one.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="loginForm_button_one.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_one.Name" xml:space="preserve">
+    <value>loginForm_button_one</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_one.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_one.Parent" xml:space="preserve">
+    <value>loginForm_login_panel</value>
+  </data>
+  <data name="&gt;&gt;loginForm_button_one.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="loginForm_login_panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 12</value>
+  </data>
+  <data name="loginForm_login_panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 363</value>
+  </data>
+  <data name="loginForm_login_panel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;loginForm_login_panel.Name" xml:space="preserve">
+    <value>loginForm_login_panel</value>
+  </data>
+  <data name="&gt;&gt;loginForm_login_panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginForm_login_panel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;loginForm_login_panel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>548, 402</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>登录界面</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>LoginForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
